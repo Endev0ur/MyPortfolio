@@ -12,15 +12,15 @@ const NavBar = () => {
   return (
     <div className="bg-black">
       <div className="h-20 w-full bg-black pl-10 pr-10 lg:pr-20 flex justify-between items-center">
-        <h1 className="font-bold text-2xl text-white">Shubham Rawat</h1>
+        <h1 className="font-bold text-2xl text-blue-500">Shubham Rawat</h1>
         
         {/* Large Screen Navigation */}
-        <div className="hidden bg-blue-500 lg:flex justify-around items-center w-[50%] h-[80%]">
-          <h2 className="text-xl font-bold">Home</h2>
-          <h2 className="text-xl font-bold">About</h2>
-          <h2 className="text-xl font-bold">Resume</h2>
-          <h2 className="text-xl font-bold">Project</h2>
-          <h2 className="text-xl font-bold">Contact</h2>
+        <div className="hidden bg-black lg:flex justify-around items-center w-[50%] h-[80%]">
+          <h2 className="text-xl font-bold text-white">Home</h2>
+          <h2 className="text-xl font-bold text-white">About</h2>
+          <h2 className="text-xl font-bold text-yellow-500">Resume</h2>
+          <h2 className="text-xl font-bold text-white">Project</h2>
+          <h2 className="text-xl font-bold text-white">Contact</h2>
         </div>
 
         {/* Mobile Menu Button */}
@@ -32,7 +32,7 @@ const NavBar = () => {
 
       {/* Sidebar */}
       <div className={`fixed top-0 right-0 h-screen w-[80%] sm:w-[60%] md:w-[40%] bg-red-500 z-50 shadow-lg transform transition-transform duration-500 ease-in-out 
-        ${isSideBarOpen ? "translate-x-0" : "translate-x-[100%]"}`}>
+        ${isSideBarOpen ? "translate-x-0" : "translate-x-[100%]"}` }>
         
         <div className="w-[100%] bg-yellow-400 block">
           <IoClose
