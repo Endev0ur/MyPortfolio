@@ -4,7 +4,7 @@ import { FaCode } from "react-icons/fa";
 
 const Links = () => {
   return (
-    <div className='bg-black p-10'>
+    <div className='bg-black  p-10 pl-7 pr-7 md:pl-10 md:pr-10'>
       <h1 className='text-white text-4xl font-bold'>Important Links</h1>
       <div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 pt-10 gap-3'>

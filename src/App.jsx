@@ -5,6 +5,7 @@ import Skills from './Components/Skills'
 import Projects from './Components/Projects'
 import Achievement from './Components/Achievement'
 import Links from './Components/Links'
+import GetContact from './Components/GetContact'
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
       <Achievement></Achievement>
       <hr className='text-white' />
       <Links></Links>
+      <hr className='text-white' />
+      <GetContact></GetContact>
       <hr className='text-white' />
 
     </div>
