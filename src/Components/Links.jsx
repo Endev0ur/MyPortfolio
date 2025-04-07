@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiLeetcode , SiCodechef , SiCodeforces , SiGeeksforgeeks} from "react-icons/si";
+import { SiLeetcode , SiCodechef , SiCodeforces , SiGeeksforgeeks , SiGithub } from "react-icons/si";
 import { FaCode } from "react-icons/fa";
 
 const Links = () => {
@@ -31,6 +31,12 @@ const Links = () => {
           <div className='h-[60px] lg:h-[70px] w-[100%] bg-gradient-to-r from-green-400 via-red-500 to-blue-500 border-5 border-amber-500 rounded-4xl flex justify-center items-center '>
             <SiGeeksforgeeks className='text-3xl mr-4' />
             <a href='https://leetcode.com/u/infycode/' target='_main' className='text-xl md:text-2xl font-bold text-black'>Gfg : (score-630)</a>
+          </div>
+
+
+          <div className='h-[60px] lg:h-[70px] w-[100%] bg-gradient-to-r from-green-400 via-red-500 to-blue-500 border-5 border-amber-500 rounded-4xl flex justify-center items-center '>
+            <SiGithub className='text-3xl mr-4' />
+            <a href='https://leetcode.com/u/infycode/' target='_main' className='text-xl md:text-2xl font-bold text-black'>Github</a>
           </div>
 
           
