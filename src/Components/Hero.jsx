@@ -2,9 +2,9 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='bg-black h-[500px] md:h-[500px] xl:h-[600px] w-full flex justify-around items-center'>
+    <div className='bg-black h-[500px] md:h-[500px] xl:h-[600px] w-full flex justify-around items-center '>
       {/* large screeen */}
-      <div className='bg-black h-[90%] w-[100%] sm:w-[82%] lg:w-[52%] border p-10 xl:pt-30'>
+      <div className='bg-black h-[90%] w-[100%] sm:w-[82%] lg:w-[52%] border pt-5 p-10 xl:pt-30'>
         <p className='text-4xl font-bold text-yellow-400'>Hi,</p>
         <br className='hidden md:block'/>
         <p className='text-3xl font-bold text-white'>This is <span className='text-red-500'>SHUBHAM RAWAT</span></p>
