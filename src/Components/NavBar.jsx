@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <div className="bg-black">
       <div className="h-20 w-full bg-black pl-10 pr-10 lg:pr-20 flex justify-between items-center">
-        <h1 className="font-bold text-2xl text-blue-500">Shubham Rawat</h1>
+        <h1 className="font-bold text-2xl md:text-3xl text-blue-500">Shubham Rawat</h1>
         
         {/* Large Screen Navigation */}
         <div className="hidden bg-black lg:flex justify-around items-center w-[50%] h-[80%]">
@@ -31,12 +31,12 @@ const NavBar = () => {
       </div>
 
       {/* Sidebar */}
-      <div className={`fixed top-0 right-0 h-screen w-[80%] sm:w-[60%] md:w-[40%] bg-red-500 z-50 shadow-lg transform transition-transform duration-500 ease-in-out 
+      <div className={`fixed top-0 right-0 h-screen w-[80%] sm:w-[60%] md:w-[40%] bg-gray-900 text-white z-50 shadow-lg transform transition-transform duration-500 ease-in-out 
         ${isSideBarOpen ? "translate-x-0" : "translate-x-[100%]"}` }>
         
         <div className="w-[100%] bg-yellow-400 block">
           <IoClose
-            className="text-3xl text-black absolute top-4 right-4 cursor-pointer z-[999]"
+            className="text-3xl text-white font-bold absolute top-4 right-4 cursor-pointer z-[999]"
             onClick={handleSideBar}
           />
         </div>

@@ -9,12 +9,12 @@ const GetContact = () => {
       <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-4 pt-10'>
           <div className='h-[60px] lg:h-[70px] w-[100%] text-white bg-gray-900 border-5 border-white rounded-4xl flex justify-center items-center '>
           <SiLinkedin className='text-2xl mr-4'/>
-            <a href='https://leetcode.com/u/infycode/' target='_main' className='text-xl md:text-2xl font-bold'>Linkedin</a>
+            <a href='https://www.linkedin.com/in/shubham-rawat-522662257/' target='_main' className='text-xl md:text-2xl font-bold'>Linkedin</a>
           </div>
 
           <div className='h-[60px] lg:h-[70px] w-[100%] text-white bg-gray-900 border-5 border-white rounded-4xl flex justify-center items-center '>
             <FaXTwitter className='text-2xl mr-4' />  
-            <a href='https://leetcode.com/u/infycode/' target='_main' className='text-xl md:text-2xl font-bold'>Twitter</a>
+            <a href='https://x.com/Uniyal_Ji_' target='_main' className='text-xl md:text-2xl font-bold'>Twitter</a>
           </div>
 
           <div className='h-[60px] lg:h-[70px] w-[100%] text-white bg-gray-900 border-5 border-white rounded-4xl flex justify-center items-center '>
